@@ -5122,5 +5122,165 @@
 		"grade": "7-8",
 		"origin": "greek",
 		"group": "people"
+	},
+	"mand": {
+		"type": "base",
+		"spelling": "mand",
+		"meanings": ["give an order"],
+		"root": "Latin mandare, to order or entrust",
+		"grade": "5-6",
+		"origin": "latin",
+		"group": "actions"
+	},
+	"cret": {
+		"type": "base",
+		"spelling": "cret",
+		"meanings": ["sift or separate"],
+		"root": "Latin cernere (cretus), to sift or separate",
+		"grade": "7-8",
+		"origin": "latin",
+		"group": "actions"
+	},
+	"verb": {
+		"type": "base",
+		"spelling": "verb",
+		"meanings": ["word or speech", "an action word"],
+		"root": "Latin verbum, word",
+		"grade": "5-6",
+		"origin": "latin",
+		"group": "senses"
+	},
+	"scend": {
+		"type": "base",
+		"spelling": "scend",
+		"meanings": ["climb"],
+		"root": "Latin scandere, to climb",
+		"grade": "5-6",
+		"origin": "latin",
+		"group": "actions"
+	},
+	"text": {
+		"type": "base",
+		"spelling": "text",
+		"meanings": ["weave", "something written"],
+		"root": "Latin texere (textus), to weave",
+		"grade": "5-6",
+		"origin": "latin",
+		"group": "actions"
+	},
+	"proper": {
+		"type": "base",
+		"spelling": "proper",
+		"meanings": ["fit"],
+		"root": "Latin proprius, one's own; in English, proper came to mean fit or suitable",
+		"grade": "5-6",
+		"origin": "latin",
+		"group": "describing"
+	},
+	"fall": {
+		"type": "base",
+		"spelling": "fall",
+		"meanings": ["fall"],
+		"grade": "3-4",
+		"origin": "english",
+		"group": "actions"
+	},
+	"rain": {
+		"type": "base",
+		"spelling": "rain",
+		"meanings": ["water falling in drops from clouds"],
+		"grade": "3-4",
+		"origin": "english",
+		"group": "nature"
+	},
+	"water": {
+		"type": "base",
+		"spelling": "water",
+		"meanings": ["water"],
+		"grade": "3-4",
+		"origin": "english",
+		"group": "nature"
+	},
+	"art": {
+		"type": "base",
+		"spelling": "art",
+		"meanings": ["creative work like painting, drawing and music"],
+		"grade": "3-4",
+		"origin": "latin",
+		"group": "people"
+	},
+	"believe": {
+		"type": "base",
+		"spelling": "believe",
+		"meanings": ["believe"],
+		"grade": "3-4",
+		"origin": "english",
+		"group": "actions"
+	},
+	"doubt": {
+		"type": "base",
+		"spelling": "doubt",
+		"meanings": ["a feeling of not being sure"],
+		"grade": "3-4",
+		"origin": "latin",
+		"group": "feelings"
+	},
+	"drama": {
+		"type": "base",
+		"spelling": "drama",
+		"meanings": ["a story acted out on a stage or screen"],
+		"grade": "5-6",
+		"origin": "greek",
+		"group": "senses"
+	},
+	"luck": {
+		"type": "base",
+		"spelling": "luck",
+		"meanings": ["good or bad things that happen by chance"],
+		"grade": "3-4",
+		"origin": "english",
+		"group": "describing"
+	},
+	"hunger": {
+		"type": "base",
+		"spelling": "hunger",
+		"meanings": ["the need or wish for food"],
+		"grade": "3-4",
+		"origin": "english",
+		"group": "feelings"
+	},
+	"mystery": {
+		"type": "base",
+		"spelling": "mystery",
+		"meanings": ["something that is hard to explain or understand"],
+		"grade": "3-4",
+		"origin": "greek",
+		"group": "describing"
+	},
+	"office": {
+		"type": "base",
+		"spelling": "office",
+		"meanings": ["a room or building where people work", "an important job or position"],
+		"grade": "3-4",
+		"origin": "latin",
+		"group": "place"
+	},
+	"environ": {
+		"type": "base",
+		"spelling": "environ",
+		"meanings": ["surround"],
+		"root": "French environner, to surround (environ, around)",
+		"grade": "5-6",
+		"origin": "latin",
+		"group": "place"
+	},
+	"terr": {
+		"type": "base",
+		"spelling": "terr",
+		"meanings": ["frighten"],
+		"root": "Latin terrere, to frighten",
+		"grade": "5-6",
+		"origin": "latin",
+		"group": "feelings"
 	}
 }

@@ -35226,5 +35226,2134 @@
 				"as": "folio"
 			}
 		]
+	},
+	{
+		"word": "command",
+		"grade": 4,
+		"definition": "to tell someone with authority what to do",
+		"parts": [
+			{
+				"m": "con",
+				"as": "com"
+			},
+			{
+				"m": "mand"
+			}
+		]
+	},
+	{
+		"word": "commander",
+		"grade": 6,
+		"definition": "a leader who is in charge of a group of soldiers, sailors or officers",
+		"parts": [
+			{
+				"m": "con",
+				"as": "com"
+			},
+			{
+				"m": "mand"
+			},
+			{
+				"m": "er",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "commandment",
+		"grade": 7,
+		"definition": "a rule that people are ordered to obey, especially a religious rule",
+		"parts": [
+			{
+				"m": "con",
+				"as": "com"
+			},
+			{
+				"m": "mand"
+			},
+			{
+				"m": "ment"
+			}
+		]
+	},
+	{
+		"word": "demand",
+		"grade": 5,
+		"definition": "to ask for something firmly, as if it is owed to you",
+		"parts": [
+			{
+				"m": "de"
+			},
+			{
+				"m": "mand"
+			}
+		]
+	},
+	{
+		"word": "demanding",
+		"grade": 6,
+		"definition": "needing a lot of effort, skill or attention",
+		"parts": [
+			{
+				"m": "de"
+			},
+			{
+				"m": "mand"
+			},
+			{
+				"m": "ing"
+			}
+		]
+	},
+	{
+		"word": "mandate",
+		"grade": 8,
+		"definition": "an official order to do something",
+		"parts": [
+			{
+				"m": "mand"
+			},
+			{
+				"m": "ate"
+			}
+		]
+	},
+	{
+		"word": "secret",
+		"grade": 3,
+		"definition": "something kept hidden from others",
+		"parts": [
+			{
+				"m": "se"
+			},
+			{
+				"m": "cret"
+			}
+		]
+	},
+	{
+		"word": "secretly",
+		"grade": 4,
+		"definition": "in a hidden way, without others knowing",
+		"parts": [
+			{
+				"m": "se"
+			},
+			{
+				"m": "cret"
+			},
+			{
+				"m": "ly",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "secretive",
+		"grade": 7,
+		"definition": "liking to keep things hidden from others",
+		"parts": [
+			{
+				"m": "se"
+			},
+			{
+				"m": "cret"
+			},
+			{
+				"m": "ive"
+			}
+		]
+	},
+	{
+		"word": "secrete",
+		"grade": 7,
+		"definition": "to make and give off a liquid, the way glands give off sweat or saliva",
+		"parts": [
+			{
+				"m": "se"
+			},
+			{
+				"m": "cret",
+				"as": "crete"
+			}
+		]
+	},
+	{
+		"word": "secretion",
+		"grade": 8,
+		"definition": "a liquid that a plant or animal makes and gives off",
+		"parts": [
+			{
+				"m": "se"
+			},
+			{
+				"m": "cret"
+			},
+			{
+				"m": "ion"
+			}
+		]
+	},
+	{
+		"word": "excrete",
+		"grade": 7,
+		"definition": "to push waste out of the body",
+		"parts": [
+			{
+				"m": "ex"
+			},
+			{
+				"m": "cret",
+				"as": "crete"
+			}
+		]
+	},
+	{
+		"word": "excretion",
+		"grade": 7,
+		"definition": "the process of getting rid of waste from the body",
+		"parts": [
+			{
+				"m": "ex"
+			},
+			{
+				"m": "cret"
+			},
+			{
+				"m": "ion"
+			}
+		]
+	},
+	{
+		"word": "discrete",
+		"grade": 8,
+		"definition": "separate and distinct, not joined to others",
+		"parts": [
+			{
+				"m": "dis",
+				"meaning": 1
+			},
+			{
+				"m": "cret",
+				"as": "crete"
+			}
+		]
+	},
+	{
+		"word": "discretion",
+		"grade": 8,
+		"definition": "good judgment about what to say or do, especially keeping private things private",
+		"parts": [
+			{
+				"m": "dis",
+				"meaning": 1
+			},
+			{
+				"m": "cret"
+			},
+			{
+				"m": "ion"
+			}
+		]
+	},
+	{
+		"word": "verbal",
+		"grade": 6,
+		"definition": "spoken or using words, not written or acted out",
+		"parts": [
+			{
+				"m": "verb",
+				"meaning": 0
+			},
+			{
+				"m": "al"
+			}
+		]
+	},
+	{
+		"word": "verbally",
+		"grade": 7,
+		"definition": "by speaking out loud",
+		"parts": [
+			{
+				"m": "verb",
+				"meaning": 0
+			},
+			{
+				"m": "al"
+			},
+			{
+				"m": "ly",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "nonverbal",
+		"grade": 7,
+		"definition": "without spoken words, such as a nod, a smile or a gesture",
+		"parts": [
+			{
+				"m": "non"
+			},
+			{
+				"m": "verb",
+				"meaning": 0
+			},
+			{
+				"m": "al"
+			}
+		]
+	},
+	{
+		"word": "proverb",
+		"grade": 6,
+		"definition": "a short, well-known saying that gives advice, like \"Look before you leap\"",
+		"parts": [
+			{
+				"m": "pro"
+			},
+			{
+				"m": "verb",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "proverbial",
+		"grade": 8,
+		"definition": "well known, like an old saying",
+		"parts": [
+			{
+				"m": "pro"
+			},
+			{
+				"m": "verb",
+				"meaning": 0,
+				"as": "verbi"
+			},
+			{
+				"m": "al"
+			}
+		]
+	},
+	{
+		"word": "adverb",
+		"grade": 4,
+		"definition": "a word that tells how, when or where an action happens, like \"quickly\"",
+		"parts": [
+			{
+				"m": "ad"
+			},
+			{
+				"m": "verb",
+				"meaning": 1
+			}
+		]
+	},
+	{
+		"word": "adverbs",
+		"grade": 4,
+		"definition": "words that tell how, when or where an action happens",
+		"parts": [
+			{
+				"m": "ad"
+			},
+			{
+				"m": "verb",
+				"meaning": 1
+			},
+			{
+				"m": "s",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "ascend",
+		"grade": 6,
+		"definition": "to go up or climb",
+		"parts": [
+			{
+				"m": "ad",
+				"as": "a"
+			},
+			{
+				"m": "scend"
+			}
+		]
+	},
+	{
+		"word": "ascending",
+		"grade": 6,
+		"definition": "going up, or going from smallest to largest",
+		"parts": [
+			{
+				"m": "ad",
+				"as": "a"
+			},
+			{
+				"m": "scend"
+			},
+			{
+				"m": "ing"
+			}
+		]
+	},
+	{
+		"word": "ascent",
+		"grade": 7,
+		"definition": "a climb or upward movement",
+		"parts": [
+			{
+				"m": "ad",
+				"as": "a"
+			},
+			{
+				"m": "scend",
+				"as": "scent"
+			}
+		]
+	},
+	{
+		"word": "descend",
+		"grade": 5,
+		"definition": "to go down or climb down",
+		"parts": [
+			{
+				"m": "de"
+			},
+			{
+				"m": "scend"
+			}
+		]
+	},
+	{
+		"word": "descending",
+		"grade": 6,
+		"definition": "going down, or going from largest to smallest",
+		"parts": [
+			{
+				"m": "de"
+			},
+			{
+				"m": "scend"
+			},
+			{
+				"m": "ing"
+			}
+		]
+	},
+	{
+		"word": "descent",
+		"grade": 7,
+		"definition": "a downward movement, or the family line a person comes from",
+		"parts": [
+			{
+				"m": "de"
+			},
+			{
+				"m": "scend",
+				"as": "scent"
+			}
+		]
+	},
+	{
+		"word": "descendant",
+		"grade": 7,
+		"definition": "a person who comes from a certain parent, grandparent or older ancestor",
+		"parts": [
+			{
+				"m": "de"
+			},
+			{
+				"m": "scend"
+			},
+			{
+				"m": "ant"
+			}
+		]
+	},
+	{
+		"word": "transcend",
+		"grade": 8,
+		"definition": "to go beyond the usual limits of something",
+		"parts": [
+			{
+				"m": "trans",
+				"as": "tran"
+			},
+			{
+				"m": "scend"
+			}
+		]
+	},
+	{
+		"word": "condescend",
+		"grade": 8,
+		"definition": "to act as if you are better than someone else",
+		"parts": [
+			{
+				"m": "con"
+			},
+			{
+				"m": "de"
+			},
+			{
+				"m": "scend"
+			}
+		]
+	},
+	{
+		"word": "texture",
+		"grade": 5,
+		"definition": "the way something feels when you touch it, such as rough or smooth",
+		"parts": [
+			{
+				"m": "text",
+				"meaning": 0
+			},
+			{
+				"m": "ure"
+			}
+		]
+	},
+	{
+		"word": "context",
+		"grade": 6,
+		"definition": "the words or events around something that help explain its meaning",
+		"parts": [
+			{
+				"m": "con"
+			},
+			{
+				"m": "text",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "contextual",
+		"grade": 8,
+		"definition": "depending on the words or events around something",
+		"parts": [
+			{
+				"m": "con"
+			},
+			{
+				"m": "text",
+				"meaning": 0,
+				"as": "textu"
+			},
+			{
+				"m": "al"
+			}
+		]
+	},
+	{
+		"word": "pretext",
+		"grade": 8,
+		"definition": "a false reason given to hide the real one",
+		"parts": [
+			{
+				"m": "pre"
+			},
+			{
+				"m": "text",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "textbook",
+		"grade": 4,
+		"definition": "a book used to study a school subject",
+		"parts": [
+			{
+				"m": "text",
+				"meaning": 1
+			},
+			{
+				"m": "book"
+			}
+		]
+	},
+	{
+		"word": "textual",
+		"grade": 8,
+		"definition": "having to do with the words of a piece of writing",
+		"parts": [
+			{
+				"m": "text",
+				"meaning": 1,
+				"as": "textu"
+			},
+			{
+				"m": "al"
+			}
+		]
+	},
+	{
+		"word": "improper",
+		"grade": 6,
+		"definition": "not suitable or not correct for the situation",
+		"parts": [
+			{
+				"m": "in",
+				"meaning": 0,
+				"as": "im"
+			},
+			{
+				"m": "proper"
+			}
+		]
+	},
+	{
+		"word": "properly",
+		"grade": 4,
+		"definition": "in the correct or suitable way",
+		"parts": [
+			{
+				"m": "proper"
+			},
+			{
+				"m": "ly",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "improperly",
+		"grade": 6,
+		"definition": "in a way that is not correct or not suitable",
+		"parts": [
+			{
+				"m": "in",
+				"meaning": 0,
+				"as": "im"
+			},
+			{
+				"m": "proper"
+			},
+			{
+				"m": "ly",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "appropriate",
+		"grade": 6,
+		"definition": "suitable for a certain time, place or person",
+		"parts": [
+			{
+				"m": "ad",
+				"as": "ap"
+			},
+			{
+				"m": "proper",
+				"as": "propri"
+			},
+			{
+				"m": "ate"
+			}
+		]
+	},
+	{
+		"word": "inappropriate",
+		"grade": 6,
+		"definition": "not suitable for a certain time, place or person",
+		"parts": [
+			{
+				"m": "in",
+				"meaning": 0
+			},
+			{
+				"m": "ad",
+				"as": "ap"
+			},
+			{
+				"m": "proper",
+				"as": "propri"
+			},
+			{
+				"m": "ate"
+			}
+		]
+	},
+	{
+		"word": "appropriately",
+		"grade": 7,
+		"definition": "in a way that suits the time, place or person",
+		"parts": [
+			{
+				"m": "ad",
+				"as": "ap"
+			},
+			{
+				"m": "proper",
+				"as": "propri"
+			},
+			{
+				"m": "ate"
+			},
+			{
+				"m": "ly",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "autonomy",
+		"grade": 8,
+		"definition": "the freedom to make your own decisions and govern yourself",
+		"parts": [
+			{
+				"m": "auto"
+			},
+			{
+				"m": "nomy"
+			}
+		]
+	},
+	{
+		"word": "autonomous",
+		"grade": 8,
+		"definition": "able to govern or run by itself without outside control",
+		"parts": [
+			{
+				"m": "auto"
+			},
+			{
+				"m": "nomy",
+				"as": "nom"
+			},
+			{
+				"m": "ous"
+			}
+		]
+	},
+	{
+		"word": "autobiographical",
+		"grade": 8,
+		"definition": "telling the story of your own life",
+		"parts": [
+			{
+				"m": "auto"
+			},
+			{
+				"m": "bio"
+			},
+			{
+				"m": "graph"
+			},
+			{
+				"m": "ic"
+			},
+			{
+				"m": "al"
+			}
+		]
+	},
+	{
+		"word": "undemocratic",
+		"grade": 7,
+		"definition": "not fair to all voters; not run by the people",
+		"parts": [
+			{
+				"m": "un",
+				"meaning": 0
+			},
+			{
+				"m": "demo"
+			},
+			{
+				"m": "cracy",
+				"as": "crat"
+			},
+			{
+				"m": "ic"
+			}
+		]
+	},
+	{
+		"word": "democratically",
+		"grade": 8,
+		"definition": "in a way where everyone gets a vote or a say",
+		"parts": [
+			{
+				"m": "demo"
+			},
+			{
+				"m": "cracy",
+				"as": "crat"
+			},
+			{
+				"m": "ic"
+			},
+			{
+				"m": "al"
+			},
+			{
+				"m": "ly",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "punctually",
+		"grade": 6,
+		"definition": "exactly on time",
+		"parts": [
+			{
+				"m": "punct",
+				"as": "punctu"
+			},
+			{
+				"m": "al"
+			},
+			{
+				"m": "ly",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "unpunctual",
+		"grade": 7,
+		"definition": "often late; not on time",
+		"parts": [
+			{
+				"m": "un",
+				"meaning": 0
+			},
+			{
+				"m": "punct",
+				"as": "punctu"
+			},
+			{
+				"m": "al"
+			}
+		]
+	},
+	{
+		"word": "punctuated",
+		"grade": 7,
+		"definition": "marked or broken up here and there, as a sentence is marked with commas and periods",
+		"parts": [
+			{
+				"m": "punct",
+				"as": "punctu"
+			},
+			{
+				"m": "ate",
+				"as": "at"
+			},
+			{
+				"m": "ed"
+			}
+		]
+	},
+	{
+		"word": "sanction",
+		"grade": 8,
+		"definition": "an official permission, or a penalty for breaking a rule",
+		"parts": [
+			{
+				"m": "sanct"
+			},
+			{
+				"m": "ion"
+			}
+		]
+	},
+	{
+		"word": "sanctified",
+		"grade": 8,
+		"definition": "made holy or set apart for a sacred purpose",
+		"parts": [
+			{
+				"m": "sanct",
+				"as": "sancti"
+			},
+			{
+				"m": "fy",
+				"as": "fi"
+			},
+			{
+				"m": "ed"
+			}
+		]
+	},
+	{
+		"word": "ventriloquism",
+		"grade": 8,
+		"definition": "the skill of speaking without moving your lips so a puppet seems to talk",
+		"parts": [
+			{
+				"m": "ventri"
+			},
+			{
+				"m": "loqu"
+			},
+			{
+				"m": "ism"
+			}
+		]
+	},
+	{
+		"word": "colloquially",
+		"grade": 8,
+		"definition": "in an everyday, casual way of speaking",
+		"parts": [
+			{
+				"m": "con",
+				"as": "col"
+			},
+			{
+				"m": "loqu",
+				"as": "loqui"
+			},
+			{
+				"m": "al"
+			},
+			{
+				"m": "ly",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "immediate",
+		"grade": 5,
+		"definition": "happening right away, with nothing in between",
+		"parts": [
+			{
+				"m": "in",
+				"meaning": 0,
+				"as": "im"
+			},
+			{
+				"m": "medi"
+			},
+			{
+				"m": "ate"
+			}
+		]
+	},
+	{
+		"word": "immediately",
+		"grade": 4,
+		"definition": "right away, without waiting",
+		"parts": [
+			{
+				"m": "in",
+				"meaning": 0,
+				"as": "im"
+			},
+			{
+				"m": "medi"
+			},
+			{
+				"m": "ate"
+			},
+			{
+				"m": "ly",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "intermediary",
+		"grade": 8,
+		"definition": "a person who carries messages or settles a deal between two sides",
+		"parts": [
+			{
+				"m": "inter"
+			},
+			{
+				"m": "medi"
+			},
+			{
+				"m": "ary"
+			}
+		]
+	},
+	{
+		"word": "hydrate",
+		"grade": 7,
+		"definition": "to give water or fluid to",
+		"parts": [
+			{
+				"m": "hydro",
+				"as": "hydr"
+			},
+			{
+				"m": "ate"
+			}
+		]
+	},
+	{
+		"word": "hydration",
+		"grade": 7,
+		"definition": "taking in enough water or fluid",
+		"parts": [
+			{
+				"m": "hydro",
+				"as": "hydr"
+			},
+			{
+				"m": "ation"
+			}
+		]
+	},
+	{
+		"word": "rehydrate",
+		"grade": 7,
+		"definition": "to put water back into something or someone that has dried out",
+		"parts": [
+			{
+				"m": "re",
+				"meaning": 0
+			},
+			{
+				"m": "hydro",
+				"as": "hydr"
+			},
+			{
+				"m": "ate"
+			}
+		]
+	},
+	{
+		"word": "dehydrated",
+		"grade": 6,
+		"definition": "having lost too much water",
+		"parts": [
+			{
+				"m": "de"
+			},
+			{
+				"m": "hydro",
+				"as": "hydr"
+			},
+			{
+				"m": "ate",
+				"as": "at"
+			},
+			{
+				"m": "ed"
+			}
+		]
+	},
+	{
+		"word": "murals",
+		"grade": 5,
+		"definition": "large paintings done on walls",
+		"parts": [
+			{
+				"m": "mur"
+			},
+			{
+				"m": "al"
+			},
+			{
+				"m": "s",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "extort",
+		"grade": 8,
+		"definition": "to get money or something else from someone by threats",
+		"parts": [
+			{
+				"m": "ex"
+			},
+			{
+				"m": "tort"
+			}
+		]
+	},
+	{
+		"word": "extortion",
+		"grade": 8,
+		"definition": "the crime of getting money from someone by threats",
+		"parts": [
+			{
+				"m": "ex"
+			},
+			{
+				"m": "tort"
+			},
+			{
+				"m": "ion"
+			}
+		]
+	},
+	{
+		"word": "distorted",
+		"grade": 7,
+		"definition": "bent out of its normal shape or changed so it is not true",
+		"parts": [
+			{
+				"m": "dis",
+				"meaning": 1
+			},
+			{
+				"m": "tort"
+			},
+			{
+				"m": "ed"
+			}
+		]
+	},
+	{
+		"word": "contortionist",
+		"grade": 8,
+		"definition": "a performer who bends the body into unusual shapes",
+		"parts": [
+			{
+				"m": "con"
+			},
+			{
+				"m": "tort"
+			},
+			{
+				"m": "ion"
+			},
+			{
+				"m": "ist"
+			}
+		]
+	},
+	{
+		"word": "tortured",
+		"grade": 7,
+		"definition": "caused someone great pain on purpose",
+		"parts": [
+			{
+				"m": "tort"
+			},
+			{
+				"m": "ure",
+				"as": "ur"
+			},
+			{
+				"m": "ed"
+			}
+		]
+	},
+	{
+		"word": "virology",
+		"grade": 8,
+		"definition": "the study of tiny germs that multiply inside living cells",
+		"parts": [
+			{
+				"m": "virus",
+				"as": "viro"
+			},
+			{
+				"m": "logy"
+			}
+		]
+	},
+	{
+		"word": "virologist",
+		"grade": 8,
+		"definition": "a scientist who studies tiny germs that multiply inside living cells",
+		"parts": [
+			{
+				"m": "virus",
+				"as": "viro"
+			},
+			{
+				"m": "logy",
+				"as": "log"
+			},
+			{
+				"m": "ist"
+			}
+		]
+	},
+	{
+		"word": "aquanaut",
+		"grade": 7,
+		"definition": "a person who lives or works underwater for a long time",
+		"parts": [
+			{
+				"m": "aqua"
+			},
+			{
+				"m": "naut"
+			}
+		]
+	},
+	{
+		"word": "rainfall",
+		"grade": 4,
+		"definition": "the amount of rain that comes down in a place",
+		"parts": [
+			{
+				"m": "rain"
+			},
+			{
+				"m": "fall"
+			}
+		]
+	},
+	{
+		"word": "waterfall",
+		"grade": 3,
+		"definition": "a stream or river pouring over a steep drop",
+		"parts": [
+			{
+				"m": "water"
+			},
+			{
+				"m": "fall"
+			}
+		]
+	},
+	{
+		"word": "downfall",
+		"grade": 6,
+		"definition": "a sudden loss of power, wealth or success",
+		"parts": [
+			{
+				"m": "down"
+			},
+			{
+				"m": "fall"
+			}
+		]
+	},
+	{
+		"word": "nightfall",
+		"grade": 5,
+		"definition": "the time in the evening when it gets dark",
+		"parts": [
+			{
+				"m": "night"
+			},
+			{
+				"m": "fall"
+			}
+		]
+	},
+	{
+		"word": "falling",
+		"grade": 3,
+		"definition": "dropping down toward the ground",
+		"parts": [
+			{
+				"m": "fall"
+			},
+			{
+				"m": "ing"
+			}
+		]
+	},
+	{
+		"word": "rainy",
+		"grade": 3,
+		"definition": "with lots of showers coming down",
+		"parts": [
+			{
+				"m": "rain"
+			},
+			{
+				"m": "y"
+			}
+		]
+	},
+	{
+		"word": "raindrop",
+		"grade": 3,
+		"definition": "a single bead of water from a cloud",
+		"parts": [
+			{
+				"m": "rain"
+			},
+			{
+				"m": "drop",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "rainwater",
+		"grade": 4,
+		"definition": "water that came down from the clouds",
+		"parts": [
+			{
+				"m": "rain"
+			},
+			{
+				"m": "water"
+			}
+		]
+	},
+	{
+		"word": "watery",
+		"grade": 4,
+		"definition": "thin, wet or full of liquid",
+		"parts": [
+			{
+				"m": "water"
+			},
+			{
+				"m": "y"
+			}
+		]
+	},
+	{
+		"word": "underwater",
+		"grade": 3,
+		"definition": "below the surface of a lake, river or sea",
+		"parts": [
+			{
+				"m": "under",
+				"meaning": 0
+			},
+			{
+				"m": "water"
+			}
+		]
+	},
+	{
+		"word": "artist",
+		"grade": 3,
+		"definition": "a person who paints, draws or makes other creative work",
+		"parts": [
+			{
+				"m": "art"
+			},
+			{
+				"m": "ist"
+			}
+		]
+	},
+	{
+		"word": "artistic",
+		"grade": 5,
+		"definition": "good at or having to do with painting, drawing and music",
+		"parts": [
+			{
+				"m": "art"
+			},
+			{
+				"m": "ist"
+			},
+			{
+				"m": "ic"
+			}
+		]
+	},
+	{
+		"word": "artistically",
+		"grade": 7,
+		"definition": "in a creative, skillful way",
+		"parts": [
+			{
+				"m": "art"
+			},
+			{
+				"m": "ist"
+			},
+			{
+				"m": "ic"
+			},
+			{
+				"m": "al"
+			},
+			{
+				"m": "ly",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "artwork",
+		"grade": 4,
+		"definition": "a painting, drawing or other piece made to be looked at",
+		"parts": [
+			{
+				"m": "art"
+			},
+			{
+				"m": "work"
+			}
+		]
+	},
+	{
+		"word": "believer",
+		"grade": 4,
+		"definition": "a person who has faith that something is true",
+		"parts": [
+			{
+				"m": "believe",
+				"as": "believ"
+			},
+			{
+				"m": "er",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "believable",
+		"grade": 5,
+		"definition": "easy to accept as true",
+		"parts": [
+			{
+				"m": "believe",
+				"as": "believ"
+			},
+			{
+				"m": "able"
+			}
+		]
+	},
+	{
+		"word": "unbelievable",
+		"grade": 4,
+		"definition": "so surprising that it is hard to accept as true",
+		"parts": [
+			{
+				"m": "un",
+				"meaning": 0
+			},
+			{
+				"m": "believe",
+				"as": "believ"
+			},
+			{
+				"m": "able"
+			}
+		]
+	},
+	{
+		"word": "unbelievably",
+		"grade": 5,
+		"definition": "so much that it is hard to accept as true",
+		"parts": [
+			{
+				"m": "un",
+				"meaning": 0
+			},
+			{
+				"m": "believe",
+				"as": "believ"
+			},
+			{
+				"m": "able",
+				"as": "abl"
+			},
+			{
+				"m": "ly",
+				"as": "y",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "disbelieve",
+		"grade": 7,
+		"definition": "to refuse to accept that something is true",
+		"parts": [
+			{
+				"m": "dis",
+				"meaning": 0
+			},
+			{
+				"m": "believe"
+			}
+		]
+	},
+	{
+		"word": "doubtful",
+		"grade": 5,
+		"definition": "not sure; unlikely to happen",
+		"parts": [
+			{
+				"m": "doubt"
+			},
+			{
+				"m": "ful"
+			}
+		]
+	},
+	{
+		"word": "doubtless",
+		"grade": 7,
+		"definition": "almost certainly",
+		"parts": [
+			{
+				"m": "doubt"
+			},
+			{
+				"m": "less"
+			}
+		]
+	},
+	{
+		"word": "undoubtedly",
+		"grade": 7,
+		"definition": "without any question; surely",
+		"parts": [
+			{
+				"m": "un",
+				"meaning": 0
+			},
+			{
+				"m": "doubt"
+			},
+			{
+				"m": "ed"
+			},
+			{
+				"m": "ly",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "doubtfully",
+		"grade": 6,
+		"definition": "in a way that shows you are not sure",
+		"parts": [
+			{
+				"m": "doubt"
+			},
+			{
+				"m": "ful"
+			},
+			{
+				"m": "ly",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "dramatic",
+		"grade": 5,
+		"definition": "exciting and full of strong feeling, like a play",
+		"parts": [
+			{
+				"m": "drama",
+				"as": "dramat"
+			},
+			{
+				"m": "ic"
+			}
+		]
+	},
+	{
+		"word": "dramatically",
+		"grade": 6,
+		"definition": "in a sudden, big or exciting way",
+		"parts": [
+			{
+				"m": "drama",
+				"as": "dramat"
+			},
+			{
+				"m": "ic"
+			},
+			{
+				"m": "al"
+			},
+			{
+				"m": "ly",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "dramatize",
+		"grade": 7,
+		"definition": "to turn a story into a play or film, or to make something seem more exciting than it is",
+		"parts": [
+			{
+				"m": "drama",
+				"as": "dramat"
+			},
+			{
+				"m": "ize"
+			}
+		]
+	},
+	{
+		"word": "lucky",
+		"grade": 3,
+		"definition": "having good things happen by chance",
+		"parts": [
+			{
+				"m": "luck"
+			},
+			{
+				"m": "y"
+			}
+		]
+	},
+	{
+		"word": "unlucky",
+		"grade": 3,
+		"definition": "having bad things happen by chance",
+		"parts": [
+			{
+				"m": "un",
+				"meaning": 0
+			},
+			{
+				"m": "luck"
+			},
+			{
+				"m": "y"
+			}
+		]
+	},
+	{
+		"word": "luckily",
+		"grade": 4,
+		"definition": "by good fortune",
+		"parts": [
+			{
+				"m": "luck"
+			},
+			{
+				"m": "y",
+				"as": "i"
+			},
+			{
+				"m": "ly",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "unluckily",
+		"grade": 5,
+		"definition": "sadly, by bad fortune",
+		"parts": [
+			{
+				"m": "un",
+				"meaning": 0
+			},
+			{
+				"m": "luck"
+			},
+			{
+				"m": "y",
+				"as": "i"
+			},
+			{
+				"m": "ly",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "hungry",
+		"grade": 3,
+		"definition": "wanting or needing to eat",
+		"parts": [
+			{
+				"m": "hunger",
+				"as": "hungr"
+			},
+			{
+				"m": "y"
+			}
+		]
+	},
+	{
+		"word": "hungrily",
+		"grade": 4,
+		"definition": "in a way that shows you want to eat",
+		"parts": [
+			{
+				"m": "hunger",
+				"as": "hungr"
+			},
+			{
+				"m": "y",
+				"as": "i"
+			},
+			{
+				"m": "ly",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "hungrier",
+		"grade": 4,
+		"definition": "wanting food more",
+		"parts": [
+			{
+				"m": "hunger",
+				"as": "hungr"
+			},
+			{
+				"m": "y",
+				"as": "i"
+			},
+			{
+				"m": "er",
+				"meaning": 1
+			}
+		]
+	},
+	{
+		"word": "hungriest",
+		"grade": 4,
+		"definition": "wanting food the most",
+		"parts": [
+			{
+				"m": "hunger",
+				"as": "hungr"
+			},
+			{
+				"m": "y",
+				"as": "i"
+			},
+			{
+				"m": "est"
+			}
+		]
+	},
+	{
+		"word": "mysterious",
+		"grade": 4,
+		"definition": "strange and hard to explain",
+		"parts": [
+			{
+				"m": "mystery",
+				"as": "mysteri"
+			},
+			{
+				"m": "ous"
+			}
+		]
+	},
+	{
+		"word": "mysteriously",
+		"grade": 5,
+		"definition": "in a strange way that is hard to explain",
+		"parts": [
+			{
+				"m": "mystery",
+				"as": "mysteri"
+			},
+			{
+				"m": "ous"
+			},
+			{
+				"m": "ly",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "mysteries",
+		"grade": 4,
+		"definition": "puzzles or events that no one can explain",
+		"parts": [
+			{
+				"m": "mystery",
+				"as": "mysteri"
+			},
+			{
+				"m": "es",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "officer",
+		"grade": 4,
+		"definition": "a person in charge, like a police or army leader",
+		"parts": [
+			{
+				"m": "office",
+				"as": "offic",
+				"meaning": 1
+			},
+			{
+				"m": "er",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "official",
+		"grade": 5,
+		"definition": "approved by the people in charge; also, a person with an important job",
+		"parts": [
+			{
+				"m": "office",
+				"as": "offici",
+				"meaning": 1
+			},
+			{
+				"m": "al"
+			}
+		]
+	},
+	{
+		"word": "unofficial",
+		"grade": 6,
+		"definition": "not approved by the people in charge",
+		"parts": [
+			{
+				"m": "un",
+				"meaning": 0
+			},
+			{
+				"m": "office",
+				"as": "offici",
+				"meaning": 1
+			},
+			{
+				"m": "al"
+			}
+		]
+	},
+	{
+		"word": "officially",
+		"grade": 6,
+		"definition": "in a way that is approved by the people in charge",
+		"parts": [
+			{
+				"m": "office",
+				"as": "offici",
+				"meaning": 1
+			},
+			{
+				"m": "al"
+			},
+			{
+				"m": "ly",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "environment",
+		"grade": 5,
+		"definition": "the land, water, air and living things around us",
+		"parts": [
+			{
+				"m": "environ"
+			},
+			{
+				"m": "ment"
+			}
+		]
+	},
+	{
+		"word": "environmental",
+		"grade": 6,
+		"definition": "having to do with the natural world around us",
+		"parts": [
+			{
+				"m": "environ"
+			},
+			{
+				"m": "ment"
+			},
+			{
+				"m": "al"
+			}
+		]
+	},
+	{
+		"word": "environmentalist",
+		"grade": 7,
+		"definition": "a person who works to protect nature",
+		"parts": [
+			{
+				"m": "environ"
+			},
+			{
+				"m": "ment"
+			},
+			{
+				"m": "al"
+			},
+			{
+				"m": "ist"
+			}
+		]
+	},
+	{
+		"word": "environmentally",
+		"grade": 7,
+		"definition": "in a way that affects the natural world",
+		"parts": [
+			{
+				"m": "environ"
+			},
+			{
+				"m": "ment"
+			},
+			{
+				"m": "al"
+			},
+			{
+				"m": "ly",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "terrible",
+		"grade": 3,
+		"definition": "very bad or awful",
+		"parts": [
+			{
+				"m": "terr"
+			},
+			{
+				"m": "ible"
+			}
+		]
+	},
+	{
+		"word": "terribly",
+		"grade": 4,
+		"definition": "very badly; also, very much",
+		"parts": [
+			{
+				"m": "terr"
+			},
+			{
+				"m": "ible",
+				"as": "ibl"
+			},
+			{
+				"m": "ly",
+				"as": "y",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "terrify",
+		"grade": 5,
+		"definition": "to make someone very scared",
+		"parts": [
+			{
+				"m": "terr",
+				"as": "terri"
+			},
+			{
+				"m": "fy"
+			}
+		]
+	},
+	{
+		"word": "terrified",
+		"grade": 5,
+		"definition": "very scared",
+		"parts": [
+			{
+				"m": "terr",
+				"as": "terri"
+			},
+			{
+				"m": "fy",
+				"as": "fi"
+			},
+			{
+				"m": "ed"
+			}
+		]
+	},
+	{
+		"word": "terrifying",
+		"grade": 5,
+		"definition": "causing great fear",
+		"parts": [
+			{
+				"m": "terr",
+				"as": "terri"
+			},
+			{
+				"m": "fy"
+			},
+			{
+				"m": "ing"
+			}
+		]
+	},
+	{
+		"word": "deter",
+		"grade": 7,
+		"definition": "to stop someone from doing something by making them worried about what might happen",
+		"parts": [
+			{
+				"m": "de"
+			},
+			{
+				"m": "terr",
+				"as": "ter"
+			}
+		]
+	},
+	{
+		"word": "deterrent",
+		"grade": 8,
+		"definition": "something that keeps people from doing something by making them worried about what might happen",
+		"parts": [
+			{
+				"m": "de"
+			},
+			{
+				"m": "terr"
+			},
+			{
+				"m": "ent"
+			}
+		]
+	},
+	{
+		"word": "uncaring",
+		"grade": 5,
+		"definition": "not showing concern for others",
+		"parts": [
+			{
+				"m": "un",
+				"meaning": 0
+			},
+			{
+				"m": "care",
+				"as": "car"
+			},
+			{
+				"m": "ing"
+			}
+		]
+	},
+	{
+		"word": "carelessly",
+		"grade": 4,
+		"definition": "without paying attention",
+		"parts": [
+			{
+				"m": "care"
+			},
+			{
+				"m": "less"
+			},
+			{
+				"m": "ly",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "enjoy",
+		"grade": 3,
+		"definition": "to get happiness from something",
+		"parts": [
+			{
+				"m": "en"
+			},
+			{
+				"m": "joy"
+			}
+		]
+	},
+	{
+		"word": "enjoyable",
+		"grade": 4,
+		"definition": "fun and pleasing",
+		"parts": [
+			{
+				"m": "en"
+			},
+			{
+				"m": "joy"
+			},
+			{
+				"m": "able"
+			}
+		]
+	},
+	{
+		"word": "enjoyment",
+		"grade": 5,
+		"definition": "the pleasure you get from something",
+		"parts": [
+			{
+				"m": "en"
+			},
+			{
+				"m": "joy"
+			},
+			{
+				"m": "ment"
+			}
+		]
+	},
+	{
+		"word": "naturally",
+		"grade": 4,
+		"definition": "in a way that is normal or not forced; of course",
+		"parts": [
+			{
+				"m": "nat"
+			},
+			{
+				"m": "ure",
+				"as": "ur"
+			},
+			{
+				"m": "al"
+			},
+			{
+				"m": "ly",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "naturalist",
+		"grade": 6,
+		"definition": "a person who studies plants and animals",
+		"parts": [
+			{
+				"m": "nat"
+			},
+			{
+				"m": "ure",
+				"as": "ur"
+			},
+			{
+				"m": "al"
+			},
+			{
+				"m": "ist"
+			}
+		]
+	},
+	{
+		"word": "undervalue",
+		"grade": 7,
+		"definition": "to think something is worth less than it really is",
+		"parts": [
+			{
+				"m": "under",
+				"meaning": 1
+			},
+			{
+				"m": "val",
+				"as": "value"
+			}
+		]
 	}
 ]
