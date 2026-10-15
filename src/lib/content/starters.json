@@ -1323,5 +1323,39 @@
 			"harm",
 			"pain"
 		]
+	},
+	{
+		"id": "requests-government-3",
+		"name": "Government words: elect, legis, feder and more",
+		"type": "build",
+		"morphemes": [
+			"lect",
+			"legis",
+			"lat",
+			"feder",
+			"execute",
+			"stat",
+			"punct",
+			"jud",
+			"ex",
+			"se",
+			"con",
+			"in",
+			"sub",
+			"ad",
+			"dis",
+			"re",
+			"trans",
+			"ion",
+			"ation",
+			"al",
+			"ive",
+			"or",
+			"ure",
+			"ment",
+			"ed",
+			"ate",
+			"ly"
+		]
 	}
 ]

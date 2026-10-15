@@ -5282,5 +5282,59 @@
 		"grade": "5-6",
 		"origin": "latin",
 		"group": "feelings"
+	},
+	"lect": {
+		"type": "base",
+		"spelling": "lect",
+		"meanings": ["choose or gather"],
+		"root": "Latin legere (lectus), to choose or gather",
+		"grade": "5-6",
+		"origin": "latin",
+		"group": "actions"
+	},
+	"feder": {
+		"type": "base",
+		"spelling": "feder",
+		"meanings": ["league or agreement"],
+		"root": "Latin foedus (foederis), treaty or league",
+		"grade": "7-8",
+		"origin": "latin",
+		"group": "people"
+	},
+	"execute": {
+		"type": "base",
+		"spelling": "execute",
+		"meanings": ["carry out"],
+		"root": "Latin exsequi (exsecutus), to follow out",
+		"grade": "7-8",
+		"origin": "latin",
+		"group": "actions"
+	},
+	"legis": {
+		"type": "base",
+		"spelling": "legis",
+		"meanings": ["law"],
+		"root": "Latin lex (legis), law (also leg-)",
+		"grade": "7-8",
+		"origin": "latin",
+		"group": "people"
+	},
+	"lat": {
+		"type": "base",
+		"spelling": "lat",
+		"meanings": ["carry"],
+		"root": "Latin latus, carried (a form of ferre)",
+		"grade": "7-8",
+		"origin": "latin",
+		"group": "actions"
+	},
+	"pugn": {
+		"type": "base",
+		"spelling": "pugn",
+		"meanings": ["fight"],
+		"root": "Latin pugnare, to fight (pugnus, fist)",
+		"grade": "7-8",
+		"origin": "latin",
+		"group": "actions"
 	}
 }

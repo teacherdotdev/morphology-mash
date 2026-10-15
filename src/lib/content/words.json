@@ -37355,5 +37355,680 @@
 				"as": "value"
 			}
 		]
+	},
+	{
+		"word": "elect",
+		"grade": 5,
+		"definition": "to choose by voting",
+		"parts": [
+			{
+				"m": "ex",
+				"as": "e"
+			},
+			{
+				"m": "lect"
+			}
+		]
+	},
+	{
+		"word": "election",
+		"grade": 5,
+		"definition": "the act of choosing leaders by voting",
+		"parts": [
+			{
+				"m": "ex",
+				"as": "e"
+			},
+			{
+				"m": "lect"
+			},
+			{
+				"m": "ion"
+			}
+		]
+	},
+	{
+		"word": "elector",
+		"grade": 7,
+		"definition": "a person who has the right to vote",
+		"parts": [
+			{
+				"m": "ex",
+				"as": "e"
+			},
+			{
+				"m": "lect"
+			},
+			{
+				"m": "or"
+			}
+		]
+	},
+	{
+		"word": "select",
+		"grade": 5,
+		"definition": "to pick out from a group",
+		"parts": [
+			{
+				"m": "se"
+			},
+			{
+				"m": "lect"
+			}
+		]
+	},
+	{
+		"word": "selection",
+		"grade": 5,
+		"definition": "a group of things picked out",
+		"parts": [
+			{
+				"m": "se"
+			},
+			{
+				"m": "lect"
+			},
+			{
+				"m": "ion"
+			}
+		]
+	},
+	{
+		"word": "collect",
+		"grade": 4,
+		"definition": "to gather things together",
+		"parts": [
+			{
+				"m": "con",
+				"as": "col"
+			},
+			{
+				"m": "lect"
+			}
+		]
+	},
+	{
+		"word": "collection",
+		"grade": 4,
+		"definition": "a group of things gathered together",
+		"parts": [
+			{
+				"m": "con",
+				"as": "col"
+			},
+			{
+				"m": "lect"
+			},
+			{
+				"m": "ion"
+			}
+		]
+	},
+	{
+		"word": "collector",
+		"grade": 5,
+		"definition": "a person who gathers things of one kind",
+		"parts": [
+			{
+				"m": "con",
+				"as": "col"
+			},
+			{
+				"m": "lect"
+			},
+			{
+				"m": "or"
+			}
+		]
+	},
+	{
+		"word": "federal",
+		"grade": 7,
+		"definition": "having to do with the national government that unites the states",
+		"parts": [
+			{
+				"m": "feder"
+			},
+			{
+				"m": "al"
+			}
+		]
+	},
+	{
+		"word": "federation",
+		"grade": 8,
+		"definition": "a group of states joined under one central government",
+		"parts": [
+			{
+				"m": "feder"
+			},
+			{
+				"m": "ation"
+			}
+		]
+	},
+	{
+		"word": "confederate",
+		"grade": 8,
+		"definition": "to join together in a league",
+		"parts": [
+			{
+				"m": "con"
+			},
+			{
+				"m": "feder"
+			},
+			{
+				"m": "ate"
+			}
+		]
+	},
+	{
+		"word": "confederation",
+		"grade": 8,
+		"definition": "a loose league of states or groups",
+		"parts": [
+			{
+				"m": "con"
+			},
+			{
+				"m": "feder"
+			},
+			{
+				"m": "ation"
+			}
+		]
+	},
+	{
+		"word": "executive",
+		"grade": 7,
+		"definition": "having the power to carry out laws and plans",
+		"parts": [
+			{
+				"m": "execute",
+				"as": "execut"
+			},
+			{
+				"m": "ive"
+			}
+		]
+	},
+	{
+		"word": "execution",
+		"grade": 8,
+		"definition": "the act of carrying out a plan or order",
+		"parts": [
+			{
+				"m": "execute",
+				"as": "execut"
+			},
+			{
+				"m": "ion"
+			}
+		]
+	},
+	{
+		"word": "executed",
+		"grade": 7,
+		"definition": "carried out",
+		"parts": [
+			{
+				"m": "execute",
+				"as": "execut"
+			},
+			{
+				"m": "ed"
+			}
+		]
+	},
+	{
+		"word": "legal",
+		"grade": 6,
+		"definition": "allowed by law",
+		"parts": [
+			{
+				"m": "legis",
+				"as": "leg"
+			},
+			{
+				"m": "al"
+			}
+		]
+	},
+	{
+		"word": "illegal",
+		"grade": 6,
+		"definition": "against the law",
+		"parts": [
+			{
+				"m": "in",
+				"as": "il",
+				"meaning": 0
+			},
+			{
+				"m": "legis",
+				"as": "leg"
+			},
+			{
+				"m": "al"
+			}
+		]
+	},
+	{
+		"word": "legally",
+		"grade": 6,
+		"definition": "in a way the law allows",
+		"parts": [
+			{
+				"m": "legis",
+				"as": "leg"
+			},
+			{
+				"m": "al"
+			},
+			{
+				"m": "ly",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "legislator",
+		"grade": 7,
+		"definition": "a person who makes laws",
+		"parts": [
+			{
+				"m": "legis"
+			},
+			{
+				"m": "lat"
+			},
+			{
+				"m": "or"
+			}
+		]
+	},
+	{
+		"word": "legislative",
+		"grade": 7,
+		"definition": "having the power to make laws",
+		"parts": [
+			{
+				"m": "legis"
+			},
+			{
+				"m": "lat"
+			},
+			{
+				"m": "ive"
+			}
+		]
+	},
+	{
+		"word": "legislature",
+		"grade": 7,
+		"definition": "a group of people elected to make laws",
+		"parts": [
+			{
+				"m": "legis"
+			},
+			{
+				"m": "lat"
+			},
+			{
+				"m": "ure"
+			}
+		]
+	},
+	{
+		"word": "legislation",
+		"grade": 8,
+		"definition": "laws that have been made",
+		"parts": [
+			{
+				"m": "legis"
+			},
+			{
+				"m": "lat"
+			},
+			{
+				"m": "ion"
+			}
+		]
+	},
+	{
+		"word": "relation",
+		"grade": 6,
+		"definition": "a connection between people or things",
+		"parts": [
+			{
+				"m": "re",
+				"meaning": 1
+			},
+			{
+				"m": "lat"
+			},
+			{
+				"m": "ion"
+			}
+		]
+	},
+	{
+		"word": "relative",
+		"grade": 5,
+		"definition": "a member of your family",
+		"parts": [
+			{
+				"m": "re",
+				"meaning": 1
+			},
+			{
+				"m": "lat"
+			},
+			{
+				"m": "ive"
+			}
+		]
+	},
+	{
+		"word": "translation",
+		"grade": 6,
+		"definition": "words changed into another language",
+		"parts": [
+			{
+				"m": "trans"
+			},
+			{
+				"m": "lat"
+			},
+			{
+				"m": "ion"
+			}
+		]
+	},
+	{
+		"word": "translator",
+		"grade": 6,
+		"definition": "a person who changes words into another language",
+		"parts": [
+			{
+				"m": "trans"
+			},
+			{
+				"m": "lat"
+			},
+			{
+				"m": "or"
+			}
+		]
+	},
+	{
+		"word": "appoint",
+		"grade": 6,
+		"definition": "to choose someone for a job",
+		"parts": [
+			{
+				"m": "ad",
+				"as": "ap"
+			},
+			{
+				"m": "punct",
+				"as": "point"
+			}
+		]
+	},
+	{
+		"word": "appointment",
+		"grade": 5,
+		"definition": "a planned time to meet someone",
+		"parts": [
+			{
+				"m": "ad",
+				"as": "ap"
+			},
+			{
+				"m": "punct",
+				"as": "point"
+			},
+			{
+				"m": "ment"
+			}
+		]
+	},
+	{
+		"word": "disappoint",
+		"grade": 5,
+		"definition": "to let someone down",
+		"parts": [
+			{
+				"m": "dis",
+				"meaning": 0
+			},
+			{
+				"m": "ad",
+				"as": "ap"
+			},
+			{
+				"m": "punct",
+				"as": "point"
+			}
+		]
+	},
+	{
+		"word": "disappointment",
+		"grade": 5,
+		"definition": "the sad feeling when things do not go as hoped",
+		"parts": [
+			{
+				"m": "dis",
+				"meaning": 0
+			},
+			{
+				"m": "ad",
+				"as": "ap"
+			},
+			{
+				"m": "punct",
+				"as": "point"
+			},
+			{
+				"m": "ment"
+			}
+		]
+	},
+	{
+		"word": "constitution",
+		"grade": 7,
+		"definition": "the written plan of basic laws for a government",
+		"parts": [
+			{
+				"m": "con"
+			},
+			{
+				"m": "stat",
+				"as": "stitut"
+			},
+			{
+				"m": "ion"
+			}
+		]
+	},
+	{
+		"word": "constitutional",
+		"grade": 8,
+		"definition": "allowed by the constitution",
+		"parts": [
+			{
+				"m": "con"
+			},
+			{
+				"m": "stat",
+				"as": "stitut"
+			},
+			{
+				"m": "ion"
+			},
+			{
+				"m": "al"
+			}
+		]
+	},
+	{
+		"word": "institution",
+		"grade": 8,
+		"definition": "a large organization such as a school or bank",
+		"parts": [
+			{
+				"m": "in",
+				"meaning": 1
+			},
+			{
+				"m": "stat",
+				"as": "stitut"
+			},
+			{
+				"m": "ion"
+			}
+		]
+	},
+	{
+		"word": "substitution",
+		"grade": 7,
+		"definition": "putting one thing in place of another",
+		"parts": [
+			{
+				"m": "sub"
+			},
+			{
+				"m": "stat",
+				"as": "stitut"
+			},
+			{
+				"m": "ion"
+			}
+		]
+	},
+	{
+		"word": "judicial",
+		"grade": 7,
+		"definition": "having to do with courts and judges",
+		"parts": [
+			{
+				"m": "jud",
+				"as": "judici"
+			},
+			{
+				"m": "al"
+			}
+		]
+	},
+	{
+		"word": "pugnacious",
+		"grade": 8,
+		"definition": "quick to argue or fight",
+		"parts": [
+			{
+				"m": "pugn",
+				"as": "pugnaci"
+			},
+			{
+				"m": "ous"
+			}
+		]
+	},
+	{
+		"word": "repugnant",
+		"grade": 8,
+		"definition": "so unpleasant that you want to push it away",
+		"parts": [
+			{
+				"m": "re",
+				"meaning": 1
+			},
+			{
+				"m": "pugn"
+			},
+			{
+				"m": "ent",
+				"as": "ant"
+			}
+		]
+	},
+	{
+		"word": "impugn",
+		"grade": 8,
+		"definition": "to fight against a claim by saying it is false",
+		"parts": [
+			{
+				"m": "in",
+				"as": "im",
+				"meaning": 1
+			},
+			{
+				"m": "pugn"
+			}
+		]
+	},
+	{
+		"word": "empathy",
+		"grade": 7,
+		"definition": "the ability to share and understand how someone else feels",
+		"parts": [
+			{
+				"m": "en",
+				"as": "em"
+			},
+			{
+				"m": "path"
+			},
+			{
+				"m": "y"
+			}
+		]
+	},
+	{
+		"word": "apathy",
+		"grade": 8,
+		"definition": "a lack of interest or feeling",
+		"parts": [
+			{
+				"m": "a"
+			},
+			{
+				"m": "path"
+			},
+			{
+				"m": "y"
+			}
+		]
+	},
+	{
+		"word": "pathetic",
+		"grade": 7,
+		"definition": "so weak or sad that it makes you feel sorry",
+		"parts": [
+			{
+				"m": "path",
+				"as": "pathet"
+			},
+			{
+				"m": "ic"
+			}
+		]
+	},
+	{
+		"word": "possibly",
+		"grade": 4,
+		"definition": "perhaps",
+		"parts": [
+			{
+				"m": "possible",
+				"as": "possib"
+			},
+			{
+				"m": "ly",
+				"meaning": 0
+			}
+		]
 	}
 ]
