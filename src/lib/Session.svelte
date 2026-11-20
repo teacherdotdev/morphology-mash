@@ -1,8 +1,9 @@
 <script lang="ts">
 	// The student's view. With a question or time limit it runs ready → running
 	// → done, and the clock starts only when they press Start. Without one it is
-	// endless practice, and Finish ends it whenever they like. Either way it ends
-	// on the Report, which the student can save as a PDF with their name on it.
+	// endless practice, and Finish ends it whenever they like, once they confirm
+	// it. Either way it ends on the Report, which the student can save as a PDF
+	// with their name on it.
 	import { onDestroy, onMount, tick } from 'svelte';
 	import BreakQuestion from './BreakQuestion.svelte';
 	import BuildQuestion from './BuildQuestion.svelte';
@@ -58,6 +59,8 @@
 	let correct = $state(0);
 	let completed = $state(0);
 	let thisWordMissed = false;
+	/** Whether the current word has been answered and counted. */
+	let thisWordCounted = $state(false);
 	let startTime = Date.now();
 	let elapsedMs = $state(0);
 
@@ -83,6 +86,7 @@
 		completed = 0;
 		tally = {};
 		thisWordMissed = false;
+		thisWordCounted = false;
 		current = nextWord();
 		asked += 1;
 		startTime = Date.now();
@@ -116,9 +120,11 @@
 		return (tally[word.word] ??= { word: word.word, asked: 0, wrong: 0, misses: [] });
 	}
 
-	// A word is finished: tally it and either move on or end the session.
-	function wordDone() {
-		if (!current || phase !== 'running') return;
+	// A word is answered: tally it straight away, so the score is right even
+	// if the session ends while the answer is still showing.
+	function wordAnswered() {
+		if (!current || phase !== 'running' || thisWordCounted) return;
+		thisWordCounted = true;
 		const entry = entryFor(current);
 		entry.asked += 1;
 		if (thisWordMissed) {
@@ -128,10 +134,17 @@
 		} else correct += 1;
 		completed += 1;
 		thisWordMissed = false;
+	}
+
+	// The answer has been shown: move on, or end the session at its word limit.
+	function wordDone() {
+		if (!current || phase !== 'running') return;
+		wordAnswered();
 		if (settings.questionLimit > 0 && completed >= settings.questionLimit) {
 			finish();
 			return;
 		}
+		thisWordCounted = false;
 		current = nextWord();
 		asked += 1;
 	}
@@ -157,6 +170,25 @@
 			.filter((w) => w.wrong > 0)
 			.sort((a, b) => b.wrong - a.wrong || a.word.localeCompare(b.word))
 	);
+
+	// --- making sure the student meant to finish ---
+	//
+	// Finish sits at the top right, where students tap without thinking while
+	// the right answer shows and the next word loads. So it asks first, and a
+	// second stray tap lands on the backdrop or on Keep going, never on Finish.
+	let finishDialog = $state<HTMLDialogElement>();
+
+	// A press on the dimmed backdrop lands on the dialog element itself, not on
+	// anything inside it.
+	function closeOnBackdrop(event: MouseEvent) {
+		const dialog = event.currentTarget as HTMLDialogElement;
+		if (event.target === dialog) dialog.close();
+	}
+
+	function confirmFinish() {
+		finishDialog?.close();
+		finish();
+	}
 
 	// --- saving the report as a PDF ---
 	//
@@ -237,7 +269,7 @@
 			<div class="progress">
 				{#if settings.questionLimit > 0}
 					<span
-						>Word {Math.min(completed + 1, settings.questionLimit)} of {settings.questionLimit}</span
+						>Word {Math.min(completed + (thisWordCounted ? 0 : 1), settings.questionLimit)} of {settings.questionLimit}</span
 					>
 				{/if}
 				{#if settings.timeLimitSec > 0}
@@ -246,7 +278,12 @@
 				<!-- Endless practice ends when the student says so. It sits up here, beside
 				     the score, so the whole session fits the window without scrolling. -->
 				{#if !challenge}
-					<button type="button" class="btn-ghost finish" onclick={finish}>Finish</button>
+					<button
+						type="button"
+						class="btn-ghost finish"
+						aria-haspopup="dialog"
+						onclick={() => finishDialog?.showModal()}>Finish</button
+					>
 				{/if}
 			</div>
 		</div>
@@ -254,12 +291,41 @@
 		<div class="question">
 			{#key asked}
 				{#if settings.type === 'build'}
-					<BuildQuestion word={current} {settings} onmiss={recordMiss} ondone={wordDone} />
+					<BuildQuestion
+						word={current}
+						{settings}
+						onmiss={recordMiss}
+						onanswer={wordAnswered}
+						ondone={wordDone}
+					/>
 				{:else}
-					<BreakQuestion word={current} {settings} onmiss={recordMiss} ondone={wordDone} />
+					<BreakQuestion
+						word={current}
+						{settings}
+						onmiss={recordMiss}
+						onanswer={wordAnswered}
+						ondone={wordDone}
+					/>
 				{/if}
 			{/key}
 		</div>
+
+		<dialog
+			bind:this={finishDialog}
+			class="dialog"
+			aria-labelledby="finish-title"
+			onclick={closeOnBackdrop}
+		>
+			<h3 id="finish-title">Are you sure you're done?</h3>
+			<p class="hint">Finishing ends this session and shows your report.</p>
+			<div class="dialog-actions">
+				<button type="button" class="btn-ghost" onclick={confirmFinish}>Yes, finish</button>
+				<!-- svelte-ignore a11y_autofocus -->
+				<button type="button" class="btn-primary" autofocus onclick={() => finishDialog?.close()}
+					>Keep going</button
+				>
+			</div>
+		</dialog>
 	{:else}
 		<div class="card results print-area">
 			<!-- Only on the saved PDF: who did it, what it was, and when. -->
@@ -310,7 +376,7 @@
 			</div>
 		</div>
 
-		<dialog bind:this={saveDialog} class="save-dialog no-print" aria-labelledby="save-title">
+		<dialog bind:this={saveDialog} class="dialog no-print" aria-labelledby="save-title">
 			<form onsubmit={savePdf}>
 				<h3 id="save-title">Save your results</h3>
 				<label>
@@ -514,7 +580,7 @@
 			break-inside: avoid;
 		}
 	}
-	.save-dialog {
+	.dialog {
 		margin: auto;
 		width: min(24rem, calc(100% - 2rem));
 		border: none;
@@ -524,22 +590,22 @@
 		color: var(--ink);
 		box-shadow: 0 10px 40px rgb(51 42 36 / 0.25);
 	}
-	.save-dialog::backdrop {
+	.dialog::backdrop {
 		background: rgb(51 42 36 / 0.4);
 	}
-	.save-dialog h3 {
+	.dialog h3 {
 		margin-bottom: 1rem;
 		font-size: 1.25rem;
 		font-weight: 600;
 	}
-	.save-dialog label {
+	.dialog label {
 		display: flex;
 		flex-direction: column;
 		gap: 0.35rem;
 		font-weight: 600;
 		font-size: 0.9rem;
 	}
-	.save-dialog input {
+	.dialog input {
 		padding: 0.6rem 0.75rem;
 		border: 1px solid var(--line-strong);
 		border-radius: 8px;
@@ -547,7 +613,7 @@
 		font-size: 1rem;
 		font-weight: 400;
 	}
-	.save-dialog input:focus {
+	.dialog input:focus {
 		outline: 2px solid var(--accent);
 		border-color: var(--accent);
 	}

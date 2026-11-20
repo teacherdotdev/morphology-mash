@@ -127,6 +127,36 @@ for (const w of WORDS)
 	for (const p of w.parts)
 		if (p.as && !(OTHER_SPELLINGS[p.m] ??= []).includes(p.as)) OTHER_SPELLINGS[p.m].push(p.as);
 
+/**
+ * Whether `form` is only an ordinary spelling change of `spelling` when a
+ * suffix joins (hope → hop, run → runn, happy → happi, possible → possibil),
+ * not a different way the morpheme is written that a teacher would look for.
+ */
+function isSpellingChange(spelling: string, form: string): boolean {
+	const stem = /[ey]$/.test(spelling) ? spelling.slice(0, -1) : spelling;
+	return (
+		spelling.startsWith(form) ||
+		form === spelling + spelling.slice(-1) ||
+		form === stem + 'i' ||
+		(spelling.endsWith('le') && form === spelling.slice(0, -2) + 'il')
+	);
+}
+
+/**
+ * The other spellings the Morpheme Bank lists beside each morpheme, so a
+ * teacher looking for im- or fect sees it is already there as in- or fact. For
+ * prefixes that is every other spelling (e- for ex-, co- for con-); for bases
+ * and suffixes it leaves out ordinary spelling changes like hope → hop.
+ */
+export const ALSO_WRITTEN: Record<string, string[]> = {};
+for (const [id, forms] of Object.entries(OTHER_SPELLINGS)) {
+	const m = MORPHEMES[id];
+	const shown = forms
+		.filter((form) => m.type === 'prefix' || !isSpellingChange(m.spelling, form))
+		.sort();
+	if (shown.length) ALSO_WRITTEN[id] = shown;
+}
+
 /** The letters this part takes up in its word. */
 export function writtenForm(part: Part): string {
 	return part.as ?? MORPHEMES[part.m].spelling;

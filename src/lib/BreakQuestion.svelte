@@ -30,11 +30,14 @@
 		word,
 		settings,
 		onmiss,
+		onanswer,
 		ondone
 	}: {
 		word: Word;
 		settings: Settings;
 		onmiss: (miss: Miss) => void;
+		/** The word is answered: count it now, before the next word loads. */
+		onanswer: () => void;
 		ondone: () => void;
 	} = $props();
 
@@ -191,6 +194,7 @@
 	function finish() {
 		finished = true;
 		message = '';
+		onanswer();
 		if (clean) timer = setTimeout(ondone, CORRECT_MS);
 	}
 

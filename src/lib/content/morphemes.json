@@ -5336,5 +5336,224 @@
 		"grade": "7-8",
 		"origin": "latin",
 		"group": "actions"
+	},
+	"imper": {
+		"type": "base",
+		"spelling": "imper",
+		"meanings": ["command or rule"],
+		"root": "Latin imperare, to command (imperium, empire)",
+		"grade": "7-8",
+		"origin": "latin",
+		"group": "people"
+	},
+	"tot": {
+		"type": "base",
+		"spelling": "tot",
+		"meanings": ["whole"],
+		"root": "Latin totus, whole",
+		"grade": "5-6",
+		"origin": "latin",
+		"group": "amount"
+	},
+	"osteo": {
+		"type": "base",
+		"spelling": "osteo",
+		"meanings": ["bone"],
+		"root": "Greek osteon, bone",
+		"grade": "7-8",
+		"origin": "greek",
+		"group": "people"
+	},
+	"oss": {
+		"type": "base",
+		"spelling": "oss",
+		"meanings": ["bone"],
+		"root": "Latin os (ossis), bone",
+		"grade": "7-8",
+		"origin": "latin",
+		"group": "people"
+	},
+	"colon-settler": {
+		"type": "base",
+		"spelling": "colon",
+		"meanings": ["farmer or settler"],
+		"root": "Latin colonus, farmer or settler",
+		"grade": "5-6",
+		"origin": "latin",
+		"group": "people"
+	},
+	"archaeo": {
+		"type": "base",
+		"spelling": "archaeo",
+		"meanings": ["ancient"],
+		"root": "Greek arkhaios, ancient",
+		"grade": "7-8",
+		"origin": "greek",
+		"group": "time"
+	},
+	"agri": {
+		"type": "base",
+		"spelling": "agri",
+		"meanings": ["field or farming"],
+		"root": "Latin ager (agri), field",
+		"grade": "5-6",
+		"origin": "latin",
+		"group": "nature"
+	},
+	"cult": {
+		"type": "base",
+		"spelling": "cult",
+		"meanings": ["grow or care for"],
+		"root": "Latin colere (cultus), to farm, tend or worship",
+		"grade": "5-6",
+		"origin": "latin",
+		"group": "actions"
+	},
+	"camer": {
+		"type": "base",
+		"spelling": "camer",
+		"meanings": ["room or chamber"],
+		"root": "Latin camera, a vaulted room",
+		"grade": "7-8",
+		"origin": "latin",
+		"group": "place"
+	},
+	"cert": {
+		"type": "base",
+		"spelling": "cert",
+		"meanings": ["sure"],
+		"root": "Latin certus, sure or settled",
+		"grade": "7-8",
+		"origin": "latin",
+		"group": "describing"
+	},
+	"civ": {
+		"type": "base",
+		"spelling": "civ",
+		"meanings": ["citizen"],
+		"root": "Latin civis, citizen",
+		"grade": "5-6",
+		"origin": "latin",
+		"group": "people"
+	},
+	"doc": {
+		"type": "base",
+		"spelling": "doc",
+		"meanings": ["teach"],
+		"root": "Latin docere (doctus), to teach (also doct-)",
+		"grade": "5-6",
+		"origin": "latin",
+		"group": "actions"
+	},
+	"frag": {
+		"type": "base",
+		"spelling": "frag",
+		"meanings": ["break"],
+		"root": "Latin frangere, to break (also fract-)",
+		"grade": "5-6",
+		"origin": "latin",
+		"group": "actions"
+	},
+	"histor": {
+		"type": "base",
+		"spelling": "histor",
+		"meanings": ["story of the past"],
+		"root": "Greek historia, an inquiry or account",
+		"grade": "3-4",
+		"origin": "greek",
+		"group": "time"
+	},
+	"mechan": {
+		"type": "base",
+		"spelling": "mechan",
+		"meanings": ["machine"],
+		"root": "Greek mekhane, a device or machine",
+		"grade": "5-6",
+		"origin": "greek",
+		"group": "actions"
+	},
+	"merc": {
+		"type": "base",
+		"spelling": "merc",
+		"meanings": ["trade or goods"],
+		"root": "Latin merx (mercis), goods for sale",
+		"grade": "7-8",
+		"origin": "latin",
+		"group": "people"
+	},
+	"pyro": {
+		"type": "base",
+		"spelling": "pyro",
+		"meanings": ["fire"],
+		"root": "Greek pyr, fire",
+		"grade": "7-8",
+		"origin": "greek",
+		"group": "nature"
+	},
+	"sent": {
+		"type": "base",
+		"spelling": "sent",
+		"meanings": ["feel"],
+		"root": "Latin sentire, to feel (also sens-)",
+		"grade": "7-8",
+		"origin": "latin",
+		"group": "feelings"
+	},
+	"sign": {
+		"type": "base",
+		"spelling": "sign",
+		"meanings": ["mark or sign"],
+		"root": "Latin signum, a mark or sign",
+		"grade": "3-4",
+		"origin": "latin",
+		"group": "senses"
+	},
+	"wood": {
+		"type": "base",
+		"spelling": "wood",
+		"meanings": ["the hard material trees are made of"],
+		"grade": "3-4",
+		"origin": "english",
+		"group": "nature"
+	},
+	"gold": {
+		"type": "base",
+		"spelling": "gold",
+		"meanings": ["a shiny yellow metal"],
+		"grade": "3-4",
+		"origin": "english",
+		"group": "nature"
+	},
+	"meso": {
+		"type": "prefix",
+		"spelling": "meso",
+		"meanings": ["middle"],
+		"grade": "7-8",
+		"origin": "greek",
+		"group": "place"
+	},
+	"oligo": {
+		"type": "prefix",
+		"spelling": "oligo",
+		"meanings": ["few"],
+		"grade": "7-8",
+		"origin": "greek",
+		"group": "amount"
+	},
+	"en-suffix": {
+		"type": "suffix",
+		"spelling": "en",
+		"meanings": ["to make or become", "made of"],
+		"grade": "3-4",
+		"origin": "english",
+		"group": "actions"
+	},
+	"ory": {
+		"type": "suffix",
+		"spelling": "ory",
+		"meanings": ["a place for", "having to do with"],
+		"grade": "7-8",
+		"origin": "latin",
+		"group": "place"
 	}
 }

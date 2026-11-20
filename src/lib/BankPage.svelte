@@ -11,6 +11,7 @@
 		GROUP_NAMES,
 		MORPHEMES,
 		morphemesOfType,
+		ALSO_WRITTEN,
 		ORIGIN_NAMES,
 		OTHER_SPELLINGS,
 		tileLabel,
@@ -82,6 +83,11 @@
 		const { name, values } = PROPERTIES[f.property];
 		if (!f.values.length) return name;
 		return `${name}: ${f.values.map((v) => values[v].replace('Grades ', '')).join(', ')}`;
+	}
+
+	/** Another spelling of m, marked as a prefix or suffix the way its tile is: im-, -crat. */
+	function affixed(m: Morpheme, spelling: string): string {
+		return tileLabel({ ...m, spelling });
 	}
 
 	function valueOf(m: Morpheme, property: Property): string {
@@ -365,7 +371,11 @@
 							onkeydown={(e) => (shiftHeld = e.shiftKey)}
 							onchange={() => pick(m.id)}
 						/>
-						<span class="spelling">{tileLabel(m)}</span>
+						<span class="spelling"
+							>{tileLabel(m)}{#if ALSO_WRITTEN[m.id]}<small class="also"
+									>also {ALSO_WRITTEN[m.id].map((s) => affixed(m, s)).join(', ')}</small
+								>{/if}</span
+						>
 						<span class="meaning">{m.meanings.join('; ')}</span>
 						<span class="tags"
 							>{m.grade.replace('-', '–')} · {ORIGIN_NAMES[m.origin]} · {GROUP_NAMES[m.group]}</span
@@ -755,7 +765,9 @@
 	}
 	.row {
 		display: grid;
-		grid-template-columns: auto minmax(4.5rem, auto) minmax(0, 1fr) auto;
+		/* A fixed spelling column keeps the meanings lined up, since each row is its
+		   own grid and other spellings would otherwise widen some rows. */
+		grid-template-columns: auto 8rem minmax(0, 1fr) auto;
 		align-items: baseline;
 		gap: 0.65rem;
 		padding: 0.4rem 2.2rem 0.4rem 0.5rem;
@@ -784,9 +796,20 @@
 		background: var(--suffix-wash);
 	}
 	.spelling {
+		overflow-wrap: anywhere;
 		font-family: var(--serif);
 		font-size: 1rem;
 		font-weight: 600;
+	}
+	/* Other spellings sit under the morpheme and wrap within its column, so a
+	   long list (ad-: ac-, af-, ag-…) doesn't push the meaning over. */
+	.also {
+		display: block;
+		color: var(--muted);
+		font-family: var(--sans);
+		font-size: 0.72rem;
+		font-weight: 400;
+		line-height: 1.3;
 	}
 	.meaning {
 		overflow: hidden;
@@ -851,7 +874,7 @@
 	/* On a phone the tags move under the meaning rather than crowd the row. */
 	@media (max-width: 40rem) {
 		.row {
-			grid-template-columns: auto minmax(3.5rem, auto) minmax(0, 1fr);
+			grid-template-columns: auto 6.5rem minmax(0, 1fr);
 		}
 		.tags {
 			grid-column: 3;

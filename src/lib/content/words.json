@@ -38030,5 +38030,1098 @@
 				"meaning": 0
 			}
 		]
+	},
+	{
+		"word": "imperial",
+		"grade": 8,
+		"definition": "having to do with an empire or an emperor",
+		"parts": [
+			{
+				"m": "imper",
+				"as": "imperi"
+			},
+			{
+				"m": "al"
+			}
+		]
+	},
+	{
+		"word": "imperialism",
+		"grade": 8,
+		"definition": "a country taking control of other lands to build an empire",
+		"parts": [
+			{
+				"m": "imper",
+				"as": "imperi"
+			},
+			{
+				"m": "al"
+			},
+			{
+				"m": "ism"
+			}
+		]
+	},
+	{
+		"word": "imperative",
+		"grade": 8,
+		"definition": "very important and needing to be done",
+		"parts": [
+			{
+				"m": "imper"
+			},
+			{
+				"m": "ate",
+				"as": "at"
+			},
+			{
+				"m": "ive"
+			}
+		]
+	},
+	{
+		"word": "total",
+		"grade": 4,
+		"definition": "the whole amount",
+		"parts": [
+			{
+				"m": "tot"
+			},
+			{
+				"m": "al"
+			}
+		]
+	},
+	{
+		"word": "totally",
+		"grade": 5,
+		"definition": "completely",
+		"parts": [
+			{
+				"m": "tot"
+			},
+			{
+				"m": "al"
+			},
+			{
+				"m": "ly",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "totality",
+		"grade": 8,
+		"definition": "the whole of something",
+		"parts": [
+			{
+				"m": "tot"
+			},
+			{
+				"m": "al"
+			},
+			{
+				"m": "ity"
+			}
+		]
+	},
+	{
+		"word": "osteology",
+		"grade": 8,
+		"definition": "the study of bones",
+		"parts": [
+			{
+				"m": "osteo"
+			},
+			{
+				"m": "logy"
+			}
+		]
+	},
+	{
+		"word": "osteocyte",
+		"grade": 8,
+		"definition": "a bone cell",
+		"parts": [
+			{
+				"m": "osteo"
+			},
+			{
+				"m": "cyto",
+				"as": "cyte"
+			}
+		]
+	},
+	{
+		"word": "osteoarthritis",
+		"grade": 8,
+		"definition": "a disease in which the cushioning in the joints wears away and causes pain",
+		"parts": [
+			{
+				"m": "osteo"
+			},
+			{
+				"m": "arthro",
+				"as": "arthr"
+			},
+			{
+				"m": "itis"
+			}
+		]
+	},
+	{
+		"word": "ossify",
+		"grade": 8,
+		"definition": "to turn into bone",
+		"parts": [
+			{
+				"m": "oss"
+			},
+			{
+				"m": "fy",
+				"as": "ify"
+			}
+		]
+	},
+	{
+		"word": "ossification",
+		"grade": 8,
+		"definition": "the process of turning into bone",
+		"parts": [
+			{
+				"m": "oss"
+			},
+			{
+				"m": "fy",
+				"as": "ific"
+			},
+			{
+				"m": "ation"
+			}
+		]
+	},
+	{
+		"word": "colony",
+		"grade": 5,
+		"definition": "a settlement ruled by a faraway country",
+		"parts": [
+			{
+				"m": "colon-settler"
+			},
+			{
+				"m": "y"
+			}
+		]
+	},
+	{
+		"word": "colonist",
+		"grade": 6,
+		"definition": "a person who settles in a colony",
+		"parts": [
+			{
+				"m": "colon-settler"
+			},
+			{
+				"m": "ist"
+			}
+		]
+	},
+	{
+		"word": "colonial",
+		"grade": 6,
+		"definition": "having to do with a colony",
+		"parts": [
+			{
+				"m": "colon-settler",
+				"as": "coloni"
+			},
+			{
+				"m": "al"
+			}
+		]
+	},
+	{
+		"word": "colonize",
+		"grade": 7,
+		"definition": "to settle in a place and take control of it",
+		"parts": [
+			{
+				"m": "colon-settler"
+			},
+			{
+				"m": "ize"
+			}
+		]
+	},
+	{
+		"word": "colonization",
+		"grade": 8,
+		"definition": "the act of settling in a place and taking control of it",
+		"parts": [
+			{
+				"m": "colon-settler"
+			},
+			{
+				"m": "ize",
+				"as": "iz"
+			},
+			{
+				"m": "ation"
+			}
+		]
+	},
+	{
+		"word": "archaeology",
+		"grade": 7,
+		"definition": "the study of how people lived long ago, from the things they left behind",
+		"parts": [
+			{
+				"m": "archaeo"
+			},
+			{
+				"m": "logy"
+			}
+		]
+	},
+	{
+		"word": "archaeologist",
+		"grade": 7,
+		"definition": "a scientist who studies how people lived long ago",
+		"parts": [
+			{
+				"m": "archaeo"
+			},
+			{
+				"m": "logy",
+				"as": "log"
+			},
+			{
+				"m": "ist"
+			}
+		]
+	},
+	{
+		"word": "archaic",
+		"grade": 8,
+		"definition": "very old or old-fashioned",
+		"parts": [
+			{
+				"m": "archaeo",
+				"as": "archa"
+			},
+			{
+				"m": "ic"
+			}
+		]
+	},
+	{
+		"word": "culture",
+		"grade": 6,
+		"definition": "the way of life, beliefs and art of a group of people",
+		"parts": [
+			{
+				"m": "cult"
+			},
+			{
+				"m": "ure"
+			}
+		]
+	},
+	{
+		"word": "cultural",
+		"grade": 7,
+		"definition": "having to do with a way of life, beliefs and art",
+		"parts": [
+			{
+				"m": "cult"
+			},
+			{
+				"m": "ure",
+				"as": "ur"
+			},
+			{
+				"m": "al"
+			}
+		]
+	},
+	{
+		"word": "cultivate",
+		"grade": 7,
+		"definition": "to prepare land and grow crops on it",
+		"parts": [
+			{
+				"m": "cult"
+			},
+			{
+				"m": "ive",
+				"as": "iv"
+			},
+			{
+				"m": "ate"
+			}
+		]
+	},
+	{
+		"word": "agriculture",
+		"grade": 6,
+		"definition": "farming: growing crops and raising animals",
+		"parts": [
+			{
+				"m": "agri"
+			},
+			{
+				"m": "cult"
+			},
+			{
+				"m": "ure"
+			}
+		]
+	},
+	{
+		"word": "agricultural",
+		"grade": 7,
+		"definition": "having to do with farming",
+		"parts": [
+			{
+				"m": "agri"
+			},
+			{
+				"m": "cult"
+			},
+			{
+				"m": "ure",
+				"as": "ur"
+			},
+			{
+				"m": "al"
+			}
+		]
+	},
+	{
+		"word": "bicameral",
+		"grade": 8,
+		"definition": "having two lawmaking houses, like the Senate and the House of Representatives",
+		"parts": [
+			{
+				"m": "bi"
+			},
+			{
+				"m": "camer"
+			},
+			{
+				"m": "al"
+			}
+		]
+	},
+	{
+		"word": "unicameral",
+		"grade": 8,
+		"definition": "having only one lawmaking house",
+		"parts": [
+			{
+				"m": "uni"
+			},
+			{
+				"m": "camer"
+			},
+			{
+				"m": "al"
+			}
+		]
+	},
+	{
+		"word": "certify",
+		"grade": 7,
+		"definition": "to say officially that something is true",
+		"parts": [
+			{
+				"m": "cert"
+			},
+			{
+				"m": "fy",
+				"as": "ify"
+			}
+		]
+	},
+	{
+		"word": "certification",
+		"grade": 8,
+		"definition": "official proof that something is true or that someone is qualified",
+		"parts": [
+			{
+				"m": "cert"
+			},
+			{
+				"m": "fy",
+				"as": "ific"
+			},
+			{
+				"m": "ation"
+			}
+		]
+	},
+	{
+		"word": "civic",
+		"grade": 7,
+		"definition": "having to do with a city or its citizens",
+		"parts": [
+			{
+				"m": "civ"
+			},
+			{
+				"m": "ic"
+			}
+		]
+	},
+	{
+		"word": "civics",
+		"grade": 7,
+		"definition": "the study of how government works and the rights and duties of citizens",
+		"parts": [
+			{
+				"m": "civ"
+			},
+			{
+				"m": "ics"
+			}
+		]
+	},
+	{
+		"word": "doctor",
+		"grade": 4,
+		"definition": "a person trained to treat people who are sick or hurt",
+		"parts": [
+			{
+				"m": "doc",
+				"as": "doct"
+			},
+			{
+				"m": "or"
+			}
+		]
+	},
+	{
+		"word": "document",
+		"grade": 6,
+		"definition": "a paper that gives information or proof",
+		"parts": [
+			{
+				"m": "doc",
+				"as": "docu"
+			},
+			{
+				"m": "ment"
+			}
+		]
+	},
+	{
+		"word": "documentary",
+		"grade": 7,
+		"definition": "a film or show about real people and events",
+		"parts": [
+			{
+				"m": "doc",
+				"as": "docu"
+			},
+			{
+				"m": "ment"
+			},
+			{
+				"m": "ary"
+			}
+		]
+	},
+	{
+		"word": "fragment",
+		"grade": 6,
+		"definition": "a small piece broken off something",
+		"parts": [
+			{
+				"m": "frag"
+			},
+			{
+				"m": "ment"
+			}
+		]
+	},
+	{
+		"word": "fragmentation",
+		"grade": 8,
+		"definition": "the breaking of something into small pieces",
+		"parts": [
+			{
+				"m": "frag"
+			},
+			{
+				"m": "ment"
+			},
+			{
+				"m": "ation"
+			}
+		]
+	},
+	{
+		"word": "history",
+		"grade": 4,
+		"definition": "the story of what happened in the past",
+		"parts": [
+			{
+				"m": "histor"
+			},
+			{
+				"m": "y"
+			}
+		]
+	},
+	{
+		"word": "historic",
+		"grade": 6,
+		"definition": "important in history",
+		"parts": [
+			{
+				"m": "histor"
+			},
+			{
+				"m": "ic"
+			}
+		]
+	},
+	{
+		"word": "historical",
+		"grade": 7,
+		"definition": "having to do with history",
+		"parts": [
+			{
+				"m": "histor"
+			},
+			{
+				"m": "ic"
+			},
+			{
+				"m": "al"
+			}
+		]
+	},
+	{
+		"word": "prehistoric",
+		"grade": 6,
+		"definition": "from the time before people wrote things down",
+		"parts": [
+			{
+				"m": "pre"
+			},
+			{
+				"m": "histor"
+			},
+			{
+				"m": "ic"
+			}
+		]
+	},
+	{
+		"word": "mechanic",
+		"grade": 5,
+		"definition": "a person who fixes machines and engines",
+		"parts": [
+			{
+				"m": "mechan"
+			},
+			{
+				"m": "ic"
+			}
+		]
+	},
+	{
+		"word": "mechanical",
+		"grade": 6,
+		"definition": "run by a machine",
+		"parts": [
+			{
+				"m": "mechan"
+			},
+			{
+				"m": "ic"
+			},
+			{
+				"m": "al"
+			}
+		]
+	},
+	{
+		"word": "mechanism",
+		"grade": 8,
+		"definition": "the parts that work together in a machine",
+		"parts": [
+			{
+				"m": "mechan"
+			},
+			{
+				"m": "ism"
+			}
+		]
+	},
+	{
+		"word": "commerce",
+		"grade": 7,
+		"definition": "the buying and selling of goods",
+		"parts": [
+			{
+				"m": "con",
+				"as": "com"
+			},
+			{
+				"m": "merc",
+				"as": "merce"
+			}
+		]
+	},
+	{
+		"word": "commercial",
+		"grade": 7,
+		"definition": "having to do with buying and selling",
+		"parts": [
+			{
+				"m": "con",
+				"as": "com"
+			},
+			{
+				"m": "merc",
+				"as": "merci"
+			},
+			{
+				"m": "al"
+			}
+		]
+	},
+	{
+		"word": "merchant",
+		"grade": 6,
+		"definition": "a person who buys and sells goods",
+		"parts": [
+			{
+				"m": "merc",
+				"as": "merch"
+			},
+			{
+				"m": "ant"
+			}
+		]
+	},
+	{
+		"word": "mesosphere",
+		"grade": 7,
+		"definition": "the layer of air above the stratosphere",
+		"parts": [
+			{
+				"m": "meso"
+			},
+			{
+				"m": "sphere"
+			}
+		]
+	},
+	{
+		"word": "mesoderm",
+		"grade": 8,
+		"definition": "the middle layer of cells in a growing embryo",
+		"parts": [
+			{
+				"m": "meso"
+			},
+			{
+				"m": "derm"
+			}
+		]
+	},
+	{
+		"word": "oligarchy",
+		"grade": 8,
+		"definition": "a government run by a small group of powerful people",
+		"parts": [
+			{
+				"m": "oligo",
+				"as": "olig"
+			},
+			{
+				"m": "archy"
+			}
+		]
+	},
+	{
+		"word": "oligarch",
+		"grade": 8,
+		"definition": "one of a small group of people who hold all the power",
+		"parts": [
+			{
+				"m": "oligo",
+				"as": "olig"
+			},
+			{
+				"m": "archy",
+				"as": "arch"
+			}
+		]
+	},
+	{
+		"word": "pyrotechnics",
+		"grade": 8,
+		"definition": "a fireworks display, or the art of making fireworks",
+		"parts": [
+			{
+				"m": "pyro"
+			},
+			{
+				"m": "techno",
+				"as": "techn"
+			},
+			{
+				"m": "ics"
+			}
+		]
+	},
+	{
+		"word": "pyrometer",
+		"grade": 8,
+		"definition": "an instrument that measures very high temperatures",
+		"parts": [
+			{
+				"m": "pyro"
+			},
+			{
+				"m": "meter"
+			}
+		]
+	},
+	{
+		"word": "consent",
+		"grade": 6,
+		"definition": "to agree to let something happen",
+		"parts": [
+			{
+				"m": "con"
+			},
+			{
+				"m": "sent"
+			}
+		]
+	},
+	{
+		"word": "resent",
+		"grade": 7,
+		"definition": "to feel angry about something that seems unfair",
+		"parts": [
+			{
+				"m": "re",
+				"meaning": 1
+			},
+			{
+				"m": "sent"
+			}
+		]
+	},
+	{
+		"word": "resentment",
+		"grade": 8,
+		"definition": "a feeling of anger about something that seems unfair",
+		"parts": [
+			{
+				"m": "re",
+				"meaning": 1
+			},
+			{
+				"m": "sent"
+			},
+			{
+				"m": "ment"
+			}
+		]
+	},
+	{
+		"word": "dissent",
+		"grade": 8,
+		"definition": "to disagree with an opinion most people hold",
+		"parts": [
+			{
+				"m": "dis",
+				"meaning": 1
+			},
+			{
+				"m": "sent"
+			}
+		]
+	},
+	{
+		"word": "sentiment",
+		"grade": 7,
+		"definition": "a feeling or opinion",
+		"parts": [
+			{
+				"m": "sent",
+				"as": "senti"
+			},
+			{
+				"m": "ment"
+			}
+		]
+	},
+	{
+		"word": "signal",
+		"grade": 4,
+		"definition": "a sound, light or movement that sends a message",
+		"parts": [
+			{
+				"m": "sign"
+			},
+			{
+				"m": "al"
+			}
+		]
+	},
+	{
+		"word": "signature",
+		"grade": 5,
+		"definition": "your name written in your own handwriting",
+		"parts": [
+			{
+				"m": "sign"
+			},
+			{
+				"m": "ate",
+				"as": "at"
+			},
+			{
+				"m": "ure"
+			}
+		]
+	},
+	{
+		"word": "design",
+		"grade": 5,
+		"definition": "to plan how something will look or work",
+		"parts": [
+			{
+				"m": "de"
+			},
+			{
+				"m": "sign"
+			}
+		]
+	},
+	{
+		"word": "assign",
+		"grade": 5,
+		"definition": "to give someone a job or task",
+		"parts": [
+			{
+				"m": "ad",
+				"as": "as"
+			},
+			{
+				"m": "sign"
+			}
+		]
+	},
+	{
+		"word": "signify",
+		"grade": 8,
+		"definition": "to be a sign of; to mean",
+		"parts": [
+			{
+				"m": "sign"
+			},
+			{
+				"m": "fy",
+				"as": "ify"
+			}
+		]
+	},
+	{
+		"word": "significant",
+		"grade": 7,
+		"definition": "important or large enough to notice",
+		"parts": [
+			{
+				"m": "sign"
+			},
+			{
+				"m": "fy",
+				"as": "ific"
+			},
+			{
+				"m": "ant"
+			}
+		]
+	},
+	{
+		"word": "insignificant",
+		"grade": 7,
+		"definition": "too small or unimportant to matter",
+		"parts": [
+			{
+				"m": "in",
+				"meaning": 0
+			},
+			{
+				"m": "sign"
+			},
+			{
+				"m": "fy",
+				"as": "ific"
+			},
+			{
+				"m": "ant"
+			}
+		]
+	},
+	{
+		"word": "sweeten",
+		"grade": 3,
+		"definition": "to make sweeter",
+		"parts": [
+			{
+				"m": "sweet"
+			},
+			{
+				"m": "en-suffix",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "sadden",
+		"grade": 4,
+		"definition": "to make someone feel sad",
+		"parts": [
+			{
+				"m": "sad",
+				"as": "sadd"
+			},
+			{
+				"m": "en-suffix",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "redden",
+		"grade": 4,
+		"definition": "to turn red",
+		"parts": [
+			{
+				"m": "red",
+				"as": "redd"
+			},
+			{
+				"m": "en-suffix",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "wooden",
+		"grade": 3,
+		"definition": "made of wood",
+		"parts": [
+			{
+				"m": "wood"
+			},
+			{
+				"m": "en-suffix",
+				"meaning": 1
+			}
+		]
+	},
+	{
+		"word": "golden",
+		"grade": 3,
+		"definition": "made of gold, or the color of gold",
+		"parts": [
+			{
+				"m": "gold"
+			},
+			{
+				"m": "en-suffix",
+				"meaning": 1
+			}
+		]
+	},
+	{
+		"word": "laboratory",
+		"grade": 6,
+		"definition": "a room with equipment for doing science experiments",
+		"parts": [
+			{
+				"m": "labor"
+			},
+			{
+				"m": "ate",
+				"as": "at"
+			},
+			{
+				"m": "ory",
+				"meaning": 0
+			}
+		]
+	},
+	{
+		"word": "migratory",
+		"grade": 7,
+		"definition": "having to do with animals moving from place to place each season",
+		"parts": [
+			{
+				"m": "migr"
+			},
+			{
+				"m": "ate",
+				"as": "at"
+			},
+			{
+				"m": "ory",
+				"meaning": 1
+			}
+		]
+	},
+	{
+		"word": "contradictory",
+		"grade": 8,
+		"definition": "saying the opposite of something else",
+		"parts": [
+			{
+				"m": "contra"
+			},
+			{
+				"m": "dict"
+			},
+			{
+				"m": "ory",
+				"meaning": 1
+			}
+		]
+	},
+	{
+		"word": "neurosis",
+		"grade": 8,
+		"definition": "a mental condition of strong, lasting worry or fear",
+		"parts": [
+			{
+				"m": "neuro"
+			},
+			{
+				"m": "sis"
+			}
+		]
+	},
+	{
+		"word": "psychosis",
+		"grade": 8,
+		"definition": "a serious illness of the mind in which a person loses touch with what is real",
+		"parts": [
+			{
+				"m": "psycho"
+			},
+			{
+				"m": "sis"
+			}
+		]
 	}
 ]
